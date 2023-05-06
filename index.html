@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dying Light 2 - Counter</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mainContainer">
+        <img class="image" src="./DyingLight2.jpg">
+        <div class="counterContainer">
+            <div class="counter">
+                <p class="counter-value">0</p>
+            </div>            
+            <div class="buttons">
+                <button data-action="decrease"><span class="decrease">-</span></button>
+                <button data-action="clear"><span>CLEAR</span></button>                
+                <button data-action="increase"><span class="increase">+</span></button>
+            </div>            
+        </div>
+    </div>
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>

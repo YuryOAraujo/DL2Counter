@@ -1,0 +1,93 @@
+:root {
+	--primary: #d50400;
+	--secondary: white;
+	--background: rgb(45, 48, 48);
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.mainContainer{
+    height: 100vh;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 6rem;color: white;
+    font-weight: 700;
+}
+
+.image{
+    margin: 0 auto;
+    width: 90%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    -webkit-box-shadow: 10px 10px 13px -9px rgba(112,112,112,1);
+    -moz-box-shadow: 10px 10px 13px -9px rgba(112,112,112,1);
+    box-shadow: 10px 10px 13px -9px rgba(112,112,112,1);
+}
+
+.counterContainer{
+    margin: 0 auto;
+    background-color: var(--background);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: block;
+    -webkit-box-shadow: 10px 10px 13px -9px rgba(112,112,112,1);
+    -moz-box-shadow: 10px 10px 13px -9px rgba(112,112,112,1);
+    box-shadow: 10px 10px 13px -9px rgba(112,112,112,1);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -60px;
+  }
+  
+.buttons button{
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    color: var(--secondary);
+    font-size: 3rem;
+    transition: all 0.6s;
+    user-select: none;
+}
+
+.buttons button:hover{
+    color: var(--primary);
+}
+
+.decrease{
+    font-size: 8rem;
+}
+
+.increase{
+    font-size: 6rem;
+}
+
+.counter-value{
+    user-select: none;
+}
