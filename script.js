@@ -4,7 +4,7 @@ let counter = localStorage.getItem("counter") || 0;
 
 document.querySelector(".counter-value").innerText = counter;
 
-if (counter > 1) {
+if (counter > 0) {
     document.querySelector(".counter-value").style.color = "#ff0000";
 }
 
